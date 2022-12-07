@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="picture-div">
+            <div class="logo-name">
+                <span class="material-symbols-outlined">
+                    currency_exchange
+                </span>
+                <span>Trading Simulator</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    copyright
+                </span>
+                <span>2023. All rights reserved.</span>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="intro">
+                This is not a real trading platform! It is a simulator to trade stocks, crypto, forex and commodities using a virtual currency.
+                <div>Sign up now to get started.</div>
+            </div>
+            <div class="main-form">
+                <h2 class="form-title">Let's do this!</h2>
+                <div class="input name">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name">
+                </div>
+                <div class="input contact">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" id="phone">
+                </div>
+                <div class="input password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm">
+                </div>
+            </div>
+            <div class="outro">
+                <button class="create">Create Account</button>
+                <span>Already have an account? <a href="#">Log in</a></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
