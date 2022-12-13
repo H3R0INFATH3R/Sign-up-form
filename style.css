@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Comic+Neue:wght@700&family=Zen+Dots&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+h1 {
+    font-family: 'Arima Madurai', cursive;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #79d727;
+}
+
+input,
+label {
+    display: block;
+}
+
+label {
+    color: #666666;
+
+    margin-bottom: 2px;
+}
+
+input {
+    margin-bottom: 28px;
+    padding: 8px auto;
+    padding-left: 12px;
+
+    border: 0.2px solid #666666;
+    border-radius: 4px;
+    border-width: thin;
+
+    height: 28px;
+    width: 220px;
+
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+/*  Picture section  */
+
+.picture-div {
+    background: center url(maxim-hopman-fiXLQXAhCfk-unsplash.jpg);
+    background-size: cover;
+
+    color: #ffffff;
+
+    width: 40vw;
+}
+
+.logo-name {
+    font-size: 20px;
+    width: 100%;
+
+    margin-top: 30%;
+    margin-bottom: 18px;
+
+    background-color: rgba(103, 103, 103, 0.35);
+}
+
+.fa-solid {
+    margin-left: 10%;
+    margin-right: 14px;
+}
+
+.pic-footer {
+    margin-left: 50%;
+}
+
+/*  Form section  */
+
+.form-div > div {
+    margin: 60px auto 20px;
+    padding-left: 42px;
+}
+
+.intro {
+    font-size: 22px;
+}
+
+.main-form {
+    margin: 20px inherit 20px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+
+    box-shadow: 0px 7px 30px -20px #000000;
+
+    display: flex;
+}
+
+.right-input {
+    margin-top: 65px;
+    margin-left: 32px;
+}
+
+.form-title {
+    margin: 12px auto 26px
+}
+
+.btn {
+    display: block;
+
+    padding: 8px 48px;
+    margin-bottom: 20px;
+
+    color: #ffffff;
+    background-color: #79d727;
+
+    border: none;
+    border-radius: 8px;
+
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #74ce25;
+}
